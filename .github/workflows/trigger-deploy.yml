@@ -14,4 +14,4 @@ jobs:
         token: ${{ secrets.REPO_ACCESS_TOKEN }}
         repository: saintybalboa/serverless-demo
         event-type: ui-deploy
-        client-payload: '{"sha": "${{ github.sha }}"}'
+        client-payload: '{"sha": "${{ github.sha }}", "repo": "saintybalboa/nextjs-demo"}'
